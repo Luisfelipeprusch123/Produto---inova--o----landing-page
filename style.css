@@ -6,6 +6,16 @@ body{
   color: #283149;
 }
 
+.nav{
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #f1f1f1;
+padding: 10px;
+
+}
+
+
 .container {
   padding: 0 250px;
   margin: 0 auto;
@@ -102,14 +112,9 @@ button:hover {
 
 }
 
-.logo{
-  display: flex;
-  align-items: center;
+.Logo{
+  font-weight: bold;
 
-}
-
-.logo img{
-  height: 100px;
 }
 
 footer {
