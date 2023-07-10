@@ -1,71 +1,47 @@
 body{
   margin: 0;
   padding: 0;
-  line-height: 1.5;
+  line-height: 2.5;
   font-family: "Segoe UI";
   color: #283149;
 }
 
-.nav{
-display: flex;
-justify-content: space-between;
-align-items: center;
-background-color: #f1f1f1;
-padding: 10px;
-
-}
-
-
-.container {
-  padding: 0 250px;
-  margin: 0 auto;
-
-}
-
-.nav .container{
+/* Estilos básicos da navbar */
+.navbar {
   display: flex;
-  text-decoration: none;
-  align-items: center;
-}
-
-.row {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.nav .row{
   justify-content: space-between;
   align-items: center;
-  padding: 55px 0;
+  background-color: #f1f1f1;
+  padding: 10px;
 }
 
-a {
+.logo {
+  font-weight: bold;
+}
+
+.nav-links li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  margin: 5px;
+
+}
+
+a{
   color: #283149;
   text-decoration: none;
 }
 
-.nav-links a{
-  display: inline-block;
-  margin-left: 40px;
-  text-transform: uppercase;
-  border-bottom: 1px solid transparent;
-  text-decoration: none;
-
-}
-
-.nav-links span {
-  width: 0;
-  height: 2px;
-  background-color: #000;
-  margin-left: 50%;
-  transition: all .2s ease;
-  display: block;
-}
-
-.nav-links a:hover span {
+.nav-links a:hover  li {
   margin-left: 0;
   width: 100%;
+
 }
+
 
 .header-content {
   padding: 40px 0;
@@ -121,4 +97,5 @@ footer {
   margin: 50px;
   text-align: center;
   color: rgba(73, 73, 73, 0.658);
+  padding: 20px;
 }

@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    font-family: "Segoe UI";
+    color: #283149;
+  }
+  
+
+/* Estilos básicos da navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f1f1f1;
+    padding: 10px;
+  }
+  
+  .logo {
+    font-weight: bold;
+  }
+  
+  .nav-links li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #333;
+  
+  }
+  
+  a{
+    color: #283149;
+    text-decoration: none;
+  }
+  
+  .nav-links a:hover  li {
+    margin-left: 0;
+    width: 100%;
+  
+  }
+
+  footer{
+    margin: 50px;
+    text-align: center;
+    color: rgba(73, 73, 73, 0.658);
+    padding: 20px;
+      }
